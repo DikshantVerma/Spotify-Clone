@@ -5,7 +5,6 @@ import Login from "./Login";
 function App() {
   return (
     <div className="App">
-      Spotify Clone
       <Login />
     </div>
   );
