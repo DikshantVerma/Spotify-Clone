@@ -6,4 +6,4 @@ export const StateProvider = ({children, initialState, reducer}) => {
     <StateConetxt.Provider value={useReducer(reducer, initialState)}>
         {children}
     </StateConetxt.Provider>
-}
+};
