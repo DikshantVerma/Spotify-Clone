@@ -3,7 +3,8 @@ export const initialState = {
   playlists: [],
   playing: false,
   item: null,
-  token: null,
+  token:
+    "BQCiEo4hGsJIlIr1sPmpHcJ5INE1IALBSYEQoT_h9qRjGrgWgJdpG7TtkTa6Q8bKFeOa6pbSwASznLlgRNeeV8FV6YrdqJjQyK1SBsWi08Sf_e5cjZVetvgGPc1skM8d4Jgr0pYdSFVIGMas_J9b7IeSohvTIXzQE_EpSodROBE1v7HHexMqqG9eA3F9yVtvQBWghcnutWTdJulwE77rXg",
 };
 
 const reducer = (state, action) => {
