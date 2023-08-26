@@ -37,9 +37,14 @@ function App() {
           playlists: playlists,
         });
       });
-    }
 
-    console.log("I have a token", token);
+      spotify.getPlaylist("37i9dQZEVXcNznQbnnkCQl").then((response) =>
+        dispatch({
+          type: "SET_DISCOVER_WEEKLY",
+          discover_weekly: response,
+        })
+      );
+    }
   }, []);
 
   return (
